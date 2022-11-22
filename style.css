@@ -1,0 +1,66 @@
+body {
+    background: rgb(12, 12, 12);
+
+}
+
+.container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rb {
+    margin-left: 100px;
+    color: white;
+    font: normal bold 15px/1 "Open Sans", sans-serif
+}
+
+#bt {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#til {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font: normal bold 20px/1 "Open Sans", sans-serif;
+}
+
+p {
+    color: white;
+    font: normal bold 15px/1 "Open Sans", sans-serif;
+}
+
+#res {
+    background: linear-gradient(to right, #5a19ca, #e033cb);
+    background-color: #5a19ca;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 14px 15px;
+    border: 0px solid #000;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+#res:hover {
+    background: linear-gradient(to right, #7554d0, #e35ed1);
+    background-color: #7554d0;
+}
+
+#res:active {
+    transform: scale(0.95);
+}
+
+.resultado {
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+}
